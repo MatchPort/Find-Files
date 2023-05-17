@@ -7,6 +7,10 @@ Foobar is a Python library for dealing with word pluralization.
 No need for any pip packages.
 Works straight out of the box.
 
+```
+git clone https://github.com/MatchPort/Find-Files.git
+```
+
 ## Usage
 Change
 ```python
