@@ -13,20 +13,20 @@ git clone https://github.com/MatchPort/Find-Files.git
 
 ## Usage
 Change
-```python
-if file.endswith('.env'):
+```ini
+FileExtension = .env
 ```
-From .env to whatever you need to find.
+From .env to whatever you need to find. (Located In config.cfg)
 
 To change the drive you wanna scan change
 
-```python
-find_env_files('D:\\')
+```ini
+Path = D:\\
 ```
 To your drive.
 
 Example:
-find_env_files('F:\\') 
+Path = F:\\
 
 ## Contributing
 
@@ -42,19 +42,19 @@ Please make sure to update tests as appropriate.
 ## Planned Updates
 Maybe adding a config file or command line config
 
-EX: 
-Config File:
+Config update is out!
+
+̶c̶̶o̶̶n̶̶f̶̶i̶̶g̶ ̶f̶̶i̶̶l̶̶e̶̶:̶
 
 ```
-'Drive': 'D://'
-'File': '.env'
+̶'̶̶d̶̶r̶̶i̶̶v̶̶e̶̶'̶̶:̶ ̶'̶̶d̶̶:̶̶/̶̶/̶̶'̶
+̶'̶̶f̶̶i̶̶l̶̶e̶̶'̶̶:̶ ̶'̶.̶e̶̶n̶̶v̶̶'̶
 ```
 
 or command line
 ```
 main.py D:// .env
 ```
-or something. 
 
 Feel free to make a pull request 
 
