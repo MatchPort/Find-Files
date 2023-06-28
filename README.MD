@@ -33,7 +33,7 @@ Path = F:\\
 
 
 
-### 🤖 Using send-discohook-json
+### 🤖 Using Find-Files
 
 ```sh
 python main.py
