@@ -9,7 +9,7 @@ Or download it here: https://github.com/MatchPort/Find-Files/releases/tag/v1.0.1
 
 2. Change to the project directory:
 ```sh
-cd send-discohook-json
+cd find-files
 ```
 
 3. Setup config:
