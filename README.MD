@@ -1,6 +1,6 @@
 ### 🖥 Installation
 
-1. Clone the send-discohook-json repository:
+1. Clone the Find-Files repository:
 ```sh
 git clone https://github.com/MatchPort/Find-Files.git
 ```
@@ -31,6 +31,15 @@ Example:
 Path = F:\\
 ```
 
+### 📂 Scanning one folder
+
+You can scan one folder by add the name of the folder after the //'s 
+
+Example:
+
+```sh
+Path = D:\\others\
+```
 
 
 ### 🤖 Using Find-Files
